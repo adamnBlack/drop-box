@@ -96,7 +96,7 @@ const APP_KEY = "xb5lw3h1fxjwtmi"
 //   throw new Error("APP_KEY must be defined for the example to work.");
 // }
 const App = () => {
-  const [accessToken, setAccessToken] = useState(Token);
+  const [accessToken, setAccessToken] = useState(null);
   const [filepath, setFilepath] = useState(null);
 
   const handleLogin = (token) => {
